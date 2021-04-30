@@ -39,7 +39,7 @@ app.post("/",function(req,res){
       console.log(JSON.parse(data));
     });
   });
-  // request1.write(jsondata);
+  request1.write(jsondata);
   request1.end();
 
 });
